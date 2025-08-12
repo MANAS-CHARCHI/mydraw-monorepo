@@ -7,6 +7,7 @@ import {
   SignInSchema,
   CreateRoomSchema,
 } from "@repo/common/types";
+import { prismaClient } from "@repo/db/client";
 
 const app = express();
 const PORT = HTTP_PORT;
